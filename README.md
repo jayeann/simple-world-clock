@@ -7,16 +7,16 @@ This aims to add up to 4 different clock from the list of allowed cities.
 
 Here are the list: 
 
-Singapore
-Tokyo
-Seoul
-Melbourne
-Sydney
-London
-Paris
-Berlin
-New York
-Los Angeles
+*Singapore
+*Tokyo
+*Seoul
+*Melbourne
+*Sydney
+*London
+*Paris
+*Berlin
+*New York
+*Los Angeles
 
 The Project is designed first using [Figma](https://www.figma.com/file/b06w5qQ4SPLvptqq0lOpTY/simple-world-clock?node-id=0%3A1)
 
