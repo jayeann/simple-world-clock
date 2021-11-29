@@ -1,4 +1,26 @@
-# Getting Started with Create React App
+## World Clock Project 
+
+## Description
+
+The World Clock Project is a clock which displays the time specifically from Manila as the main clock and for various cities around the world. 
+This aims to add up to 4 different clock from the list of allowed cities.
+
+Here are the list: 
+
+Singapore
+Tokyo
+Seoul
+Melbourne
+Sydney
+London
+Paris
+Berlin
+New York
+Los Angeles
+
+The Project is designed first using [Figma](https://www.figma.com/file/b06w5qQ4SPLvptqq0lOpTY/simple-world-clock?node-id=0%3A1)
+
+The purpose of creating the mockup prototype is to visualize what experience should come within the app. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

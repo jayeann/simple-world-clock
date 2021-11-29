@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    h1 {
+        font-weight: normal;
+    }
+    span {
+        font-weight: bold;
+    }
+    .edit-container {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 3em;
+        height: 7em;
+        display: flex;
+        align-items: center;
+        .edit-card-list {
+            border-radius: 3em;
+            height: 4.75em;
+            padding: 1.5em;
+            background-color: #ededed;
+            svg {
+                fill: black;
+            }
+        }
+        .edit-card-list:hover {
+            background-color: #bcbcbc;
+        }
+    }
+}

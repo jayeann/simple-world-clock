@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 12em;
+    .group {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    .title {
+        line-height: 2.2;
+    }
+}
+
+.clock {
+    height: 10em;
+    width: 100%;
+    position: relative;
+    .clock-text {
+        font-size: 7rem;
+        font-weight: 500;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.modal-container {
+    .form-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        padding: 30px 40px;
+    }
+    .add-btn {
+        background-color: black;
+        color: white;
+        &:hover {
+            background-color: rgb(42, 42, 42);
+            color: white;
+        }
+    }
+}

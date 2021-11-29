@@ -1,0 +1,61 @@
+.MuiCard-root {
+    height: 275px;
+    position: relative;
+}
+
+.delete-section {
+    position: absolute;
+    right: 10px;
+    top: 0.5em;
+    button {
+        background: transparent;
+        color: black;
+        border-radius: 2em;
+        min-width: 30px;
+    }
+    button:hover {
+        background-color: #ff5555;
+        color: white;
+    }
+}
+
+.add-card {
+    border: 2px dashed #606060;
+    border-radius: none;
+    box-shadow: none;
+    cursor: pointer;
+    box-shadow: none!important;
+    .add-card-content {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        svg {
+            font-size: 4.5rem;
+        }
+    }
+}
+
+.timezone-card {
+    text-align: center;
+    width: 275px;
+    .timezone-content {
+        .timezone-info {
+            height: 4em;
+        }
+        .timezone-data {
+            height: 4.75em;
+        }
+        .timezone-text {
+            line-height: 1.75em;
+            color: #000000;
+            opacity: 0.8;
+        }
+        .timezone-city,
+        .timezone-time {
+            font-weight: bold;
+        }
+    }
+}
